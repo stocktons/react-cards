@@ -1,5 +1,5 @@
 import React from "react";
-import Deck from "./Deck";
+import Cards from "./Cards";
 import "./App.css";
 
 /** Site application.
@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
       <main className="App">
-        <Deck />
+        <Cards />
       </main>
   );
 }

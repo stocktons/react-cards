@@ -6,3 +6,10 @@ import React from "react";
  * - img
  */
 
+function Card(props) {
+    return (
+        <img className="Card" src={ props.img } alt="card"></img>
+    );
+}
+
+export default Card;
