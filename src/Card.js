@@ -6,9 +6,9 @@ import React from "react";
  * - img
  */
 
-function Card(props) {
+function Card({ img, id }) {
     return (
-        <img className="Card" src={ props.img } alt="card"></img>
+        <img className="Card" src={img} alt={id}></img>
     );
 }
 
