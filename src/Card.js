@@ -4,11 +4,12 @@ import React from "react";
  * 
  * Props: 
  * - img
+ * - id
  */
 
 function Card({ img, id }) {
     return (
-        <img className="Card" src={img} alt={id}></img>
+        <img className="Card" src={img} alt={id}/>
     );
 }
 
